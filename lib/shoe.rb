@@ -9,7 +9,7 @@ class Shoe
     end
 
     def unique
-        return BRANDS.uniq
+        return BRANDS.uniq!
       end
 
 
