@@ -11,8 +11,8 @@ class Shoe
 
   def unique
     BRANDS.each do |unique|
-      if unique != @brand
-        BRANDS << brand
+      if unique == @brand
+        BRANDS.shift(unique)
       end
     end
   end
