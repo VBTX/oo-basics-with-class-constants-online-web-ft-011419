@@ -10,8 +10,8 @@ class Shoe
       if unit != @brand
         BRANDS << brand
       end
+      BRANDS
     end
-    BRANDS
   end
 
 
